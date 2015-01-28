@@ -1,0 +1,28 @@
+Derek Freed
+
+Catch 'Em All Game - Project 1 CSCI4070
+
+Definition of Game Objects:
+	I have 4 Objects that I use in my game including Pokemon, Player, Pokeball,
+	and Background.
+Animation of Game Objeccts:
+	I have pokeballs animated to move in x direction when spacebar is tapped.
+	Pokemon move in the x direction and a random y direction. The player is 
+	also animated to look like he is walking. My background is a scrolling background
+	so it is animated to move in the x direction and redraw itself if it leaves the
+	screen.
+Interaction between Game Objects:
+	Pokeballs can hit Pokemon to catch them and Pokemon can hit Player to make Player
+	lose.
+Keeping Score:
+	Player gets 1 point per pokemon caught and it is displayed in top left corner.
+Compexity:
+	My enemies are randomly selected from a large spritesheet and then spawn at a 
+	random x position with a random y velocity. The player is also animated to walk
+	across a scrolling background.
+Documentation/Files:
+	I have all necessary files to run the project. I have a readme.txt, grading.txt.
+	report.txt, screenshots, javascript files, images for sprites, and driving html
+	file.
+Demo/Project Gallery:
+	My gallery is at derekfreed.github.io

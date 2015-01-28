@@ -1,0 +1,21 @@
+Derek Freed
+
+Catch 'Em All Game - Project 1 CSCI4070
+
+The objective of Catch 'Em All is to survive as long as you possibly can and catch as many
+pokemon as you can. The Player has an Ash sprite that is attached to the left side of the
+screen and is animated appear to be walking to the right. The background is made to scroll 
+or parallax to the left to create the illusion of walking.  Pokemon then randomly spawn on
+the right side of the screen and go towards the right with a random y velocity. The player
+can hit the space bar to throw pokeballs at pokemon in order to catch them. If the pokeball
+collides with a pokemon, the player gets 1 point. If a pokemon collides with the player
+then the player loses and the game transfers to the losing screen displaying the score.
+The player can then hit enter to restart the game.
+
+Screenshots of the game are including in the Screenshot folder of this submission.
+Screenshots include one of the start menu, sprites being animated including projectiles,
+and one of the losing screen.
+
+If you are a new user then, to run the game all you need to do is execute project1.html.
+The controls of the game are extremely simple, you use up and down or w and s to move up 
+and down in order to dodge pokemon, and spacebar to throw pokeballs. 
