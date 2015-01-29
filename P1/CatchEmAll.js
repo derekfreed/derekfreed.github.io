@@ -151,6 +151,7 @@ function keyHandler(e)
 	//down arrow or s
 	if(e.keyCode == 40 || e.keyCode == 83)
 	{
+		
 		Ash.yPos += 30;
 		//bottom boundary of canvas
 		if(Ash.yPos > stage.height - Ash.spriteHeight)
