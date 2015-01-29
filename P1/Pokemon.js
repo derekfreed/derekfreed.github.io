@@ -8,7 +8,7 @@ function Pokemon ()
 	this.imageY = getRandomInt(0, 9)*60;
 	this.spriteWidth = 60;
 	this.spriteHeight = 60;
-	this.xVelocity = -5;
+	this.xVelocity = getRandomInt(-6,-4);
 	this.yVelocity = getRandomInt(-2, 2);
 	this.ready = false;
 	this.image = new Image();
