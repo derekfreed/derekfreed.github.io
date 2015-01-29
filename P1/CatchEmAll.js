@@ -10,13 +10,14 @@ var menu = true;
 //used to increase spawnrate of pokemon until a cap  ***see function pokemonSpawn()
 var t = .05;
 var i = 10;
-//game starts here with creation of background, player and gameloop interval
+//game starts here with creation of background, player and GameMain 
 var background = new Background();
 var Ash = new Player();
-var gameloop = setInterval(GameMain,1000/60);
+GameMain();
 	
 function GameMain()
 {
+	requestAnimationFrame(GameMain);
 	//Ash is still alive
 	if(Ash.active == true && menu == false)
 	{
