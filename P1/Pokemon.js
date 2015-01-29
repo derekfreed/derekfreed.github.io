@@ -18,6 +18,8 @@ function Pokemon ()
 	};
 	this.draw = function(){
 		ctx.drawImage(this.image, this.imageX, this.imageY, this.spriteWidth, this.spriteHeight, this.xPos, this.yPos, this.spriteWidth, this.spriteHeight);
+		if(this.yPos<0 || this.yPos+this.spriteHeight>stage.height)
+			this.yVelocity= -this.yVelocity;
 		//handle velocity
 		this.xPos += this.xVelocity;
 		this.yPos += this.yVelocity;
