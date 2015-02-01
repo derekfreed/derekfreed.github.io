@@ -8,7 +8,7 @@ var pokemon = [];
 //true when game is started for first time
 var menu = true;
 //used to increase spawnrate of pokemon until a cap  ***see function pokemonSpawn()
-var t = .05;
+var t = .02;
 var i = 10;
 //game starts here with creation of background, player and GameMain 
 var background = new Background();
