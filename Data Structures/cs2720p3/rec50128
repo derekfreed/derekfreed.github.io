@@ -1,0 +1,12 @@
+cs2720p3:
+total 136
+-rw-r--r--. 1 ugrad 108033 Nov 11 18:17 DataCurves.pdf
+-rw-r--r--. 1 ugrad   1761 Nov 11 23:02 DataGenerator.cc
+-rw-r--r--. 1 ugrad    744 Nov 11 23:07 InsertionSort.cc
+-rw-r--r--. 1 ugrad    115 Nov 11 17:09 InsertionSort.h
+-rw-r--r--. 1 ugrad    261 Nov 11 14:21 Makefile
+-rw-r--r--. 1 ugrad   1527 Nov 12 08:55 MergeSort.cc
+-rw-r--r--. 1 ugrad    144 Nov 11 17:08 MergeSort.h
+-rw-r--r--. 1 ugrad    942 Nov 12 09:00 README.txt
+-rw-r--r--. 1 ugrad      0 Nov 12 09:04 rec50128
+/home/ugrads/freed/cs2720/cs2720p3:/home/work/cs2720

@@ -1,0 +1,13 @@
+cs2720p4:
+total 36
+-rw-r--r--. 1 ugrad 1642 Dec  1 14:55 Hashlink.cc
+-rw-r--r--. 1 ugrad  479 Nov 18 18:07 Hashlink.h
+-rw-r--r--. 1 ugrad 1081 Nov 18 18:07 Hashnode.cc
+-rw-r--r--. 1 ugrad 1121 Nov 18 18:08 Hashnode.h
+-rw-r--r--. 1 ugrad 1739 Dec  1 14:56 Hashtable.cc
+-rw-r--r--. 1 ugrad  567 Nov 18 18:08 Hashtable.h
+-rw-r--r--. 1 ugrad  983 Nov 18 18:09 HashTest.cc
+-rw-r--r--. 1 ugrad  195 Nov 18 18:26 Makefile
+-rw-r--r--. 1 ugrad  833 Dec  1 14:58 README.txt
+-rw-r--r--. 1 ugrad    0 Dec  1 14:59 rec37884
+/home/ugrads/freed/cs2720/cs2720p4:/home/work/cs2720
