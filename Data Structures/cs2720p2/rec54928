@@ -1,9 +1,0 @@
-cs2720p2:
-total 24
--rw-r--r--. 1 ugrad 7558 Oct 28 17:37 bstree.h
--rw-r--r--. 1 ugrad  436 Oct 28 17:35 README.txt
--rw-r--r--. 1 ugrad    0 Oct 28 17:42 rec54928
--rw-r--r--. 1 ugrad 2814 Oct 27 17:14 testmain.cc
--rw-r--r--. 1 ugrad  608 Oct 28 17:36 treenode.h
--rw-r--r--. 1 ugrad 1813 Oct 28 17:35 treescan.h
-/home/ugrads/freed/cs2720/cs2720p2:/home/work/cs2720a
