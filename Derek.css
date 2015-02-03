@@ -2,9 +2,10 @@ body{
 	background-color: #D1FFA3;
 }
 h1,h2 {
-	font-family: helvetica;
+	font-family: 'Poiret One';
 }
 h1 {
 	font-size: 48px;
 	text-align: center;
+	font-weight: bold;
 }
