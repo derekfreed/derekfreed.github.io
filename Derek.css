@@ -27,9 +27,6 @@ h2 {
 }
 
 .contentContainer {
-	/*border-style: solid;
-	border-color: #b3b3b3;
-	border-width: 1px;*/
 	overflow: hidden;
 	margin-left: auto;
 	margin-right: auto;
@@ -47,9 +44,13 @@ p.about{
 	padding-left:25%;
 	padding-right:25%;
 }
-a {
+a.white {
 	font-family: 'Oxygen', sans-serif;
 	color: #ffffff;
+}
+a.grey {
+	font-family: 'Oxygen', sans-serif;
+	color: #25262a;
 }
 a:hover {
 
