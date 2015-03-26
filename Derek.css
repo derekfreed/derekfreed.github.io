@@ -23,6 +23,10 @@ h2 {
 	margin: 0;
 	display:inline-block;
 	width: 100%;
+	position: fixed;
+	top:0;
+	z-index: -1;
+
 	/*box-shadow: 5px 5px 5px #888888;*/
 }
 
@@ -32,7 +36,7 @@ h2 {
 	margin-right: auto;
 	padding-left: 10px;
 	padding-right: 10px;
-	width: 700px;
+	width: 75%;
 	height:400px;
 /*	box-shadow: 2px 2px 10px #888888;*/
 }
@@ -53,7 +57,7 @@ a.grey {
 	color: #25262a;
 }
 a:hover {
-
+	color: #9775AA;
 }
 .fixedBackground{
 	background-image: url("sombrero.jpg");
@@ -64,15 +68,20 @@ a:hover {
 	margin-right: auto;
 	padding-left: 10px;
 	padding-right: 10px;
-	height:400px;
+	height: 400px;
+	position: fixed;
+	top: 101px;
 }
 .greyBackground{
 	background-color: #25262a;
 	color: #ffffff;
 	box-shadow: 5px 5px 5px #888888;
+	margin-top: 400px;
 }
 .whiteBackground{
 	background-color: #ffffff;
 	color: #25262a;
-
+}
+ul{
+	list-style-type: none;
 }
