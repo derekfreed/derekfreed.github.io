@@ -45,8 +45,9 @@ p {
 	font-family: 'Oxygen', sans-serif;
 }
 p.about{
-	padding-left:25%;
-	padding-right:25%;
+	/*padding-left:25%;
+	padding-right:25%;*/
+	padding:5px;
 }
 a.white {
 	font-family: 'Oxygen', sans-serif;
@@ -68,6 +69,13 @@ a:hover {
 }
 a{
 	text-decoration: none;
+}
+.roundedBox{
+	background-color: rgba(255,255,255,0.5);
+	margin-right: 20%;
+	margin-left: 20%;
+	padding:0;
+	border-radius: 20px;
 }
 .fixedBackground{
 	background-image: url("sombrero.jpg");
