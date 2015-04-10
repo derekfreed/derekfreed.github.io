@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+	<style>
+	#Game{
+		padding-left: 0;
+    	padding-right: 0;
+    	margin: auto;
+    	float: left;
+	}
+	#instruction-text{
+		margin-left: 20px;
+		margin-right: 20px;
+		float: left;
+	}
+	body{
+		background-color: #A8C764;
+		font-family: Calibri, sans-serif;
+	}
+	h1{
+		font-family: 'Raleway', sans-serif;
+	}
+	</style>
+</head>
+<html>
+    <body>
+        <div id="canvas-container">
+	        <canvas id="Game" width="755" height="755"></canvas>
+	        <div id="instruction-text">
+	        	<h1>A* Visual</h1>
+		        <h3>Instructions</h3>
+	        	<p>If you start using one algorithm, you cannot swap between them mid-search<br>
+	        	Press F to show F values<br>
+	        	Press G to show G values<br>
+	        	Press H to show H values<br>
+	        	Press C to clear values<br>
+	    		Click Nodes to cycle through empty, wall, start, and finish options<br>
+	    		A*: HOLD RIGHT ARROW to run the animation PRESS to step through<br>
+	    		Dijkstra: HOLD LEFT ARROW to run the animation PRESS to step through</p>
+	    		Guess number of Steps:<input type="text" id="guess"><br>
+	    		<button onClick="init()">Generate new Grid!</button>
+	    		<form >
+  					Rows: <input type="text" id="rows"><br>
+  					Columns: <input type="text" id="cols"><br>
+				</form>
+				<button onClick="newGrid()">Submit</button>
+				<p id="steps">Steps: </p>
+				<p id="distance">Distance: </p>
+
+	    	</div>
+	    </div>
+        <script src="a_star2.js"></script>
+
+
+
+    </body>
+</html>
