@@ -18,7 +18,8 @@ h2 {
 	font-size: 25px;
 }
 .heading {
-	background-color: #25262a;
+	//background-color: #25262a;
+	background-color: #0B0325;
 	padding: 0;
 	margin: 0;
 	display:inline-block;
@@ -56,14 +57,14 @@ a.white {
 }
 a.grey {
 	font-family: 'Oxygen', sans-serif;
-	color: #25262a;
+	color: #0B0325;
 }
 a:hover {
 	color: #9775AA;
 }
 .scroll{
 	color: #ffffff;
-	background-color: #25262a;
+	background-color: #0B0325;
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
 	margin-left:20px;
@@ -92,14 +93,14 @@ a{
 	top: 101px;
 }
 .greyBackground{
-	background-color: #25262a;
+	background-color: #0B0325;
 	color: #ffffff;
 	box-shadow: 5px 5px 5px #888888;
 	margin-top: 500px;
 }
 .whiteBackground{
 	background-color: #ffffff;
-	color: #25262a;
+	color: #0B0325;
 }
 ul{
 	list-style-type: none;
