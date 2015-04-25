@@ -19,7 +19,7 @@ h2 {
 }
 .heading {
 	//background-color: #25262a;
-	background-color: #451513;
+	background-color: #413F74;
 	padding: 0;
 	margin: 0;
 	display:inline-block;
@@ -57,14 +57,14 @@ a.white {
 }
 a.grey {
 	font-family: 'Oxygen', sans-serif;
-	color: #451513;
+	color: #413F74;
 }
 a:hover {
 	color: #9775AA;
 }
 .scroll{
 	color: #ffffff;
-	background-color: #451513;
+	background-color: #413F74;
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
 	margin-left:20px;
@@ -93,14 +93,14 @@ a{
 	top: 101px;
 }
 .greyBackground{
-	background-color: #451513;
+	background-color: #413F74;
 	color: #ffffff;
 	box-shadow: 5px 5px 5px #888888;
 	margin-top: 500px;
 }
 .whiteBackground{
 	background-color: #ffffff;
-	color: #451513;
+	color: #413F74;
 }
 ul{
 	list-style-type: none;
