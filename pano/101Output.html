@@ -44,10 +44,6 @@
 			.warning { 
 				font-weight: bold;
 			} 
-			#container{
-				width: 200px;
-				height:180px;
-			}
 			/* fix for scroll bars on webkit & Mac OS X Lion */ 
 			::-webkit-scrollbar {
 				background-color: rgba(0,0,0,0.5);
@@ -56,7 +52,54 @@
 			::-webkit-scrollbar-thumb {
     			background-color:  rgba(255,255,255,0.5);
 			}
-		</style>	
+			#container{
+				margin:auto;
+			}
+
+			 /*==========  Mobile First Method  ==========*/
+			
+			/* Custom, iPhone Retina */ 
+			@media only screen and (min-width : 320px) {
+			     #container{
+					width:280px;
+					height:200px;
+				}      
+			}
+			
+			/* Extra Small Devices, Phones */ 
+			@media only screen and (min-width : 480px) {
+				#container{
+					width:400px;
+					height:300px;
+				}
+			}
+			
+			/* Small Devices, Tablets */
+			@media only screen and (min-width : 768px) {
+				#container{
+					width:600px;
+					height:480px;
+				}
+			}
+			
+			/* Medium Devices, Desktops */
+			@media only screen and (min-width : 992px) {
+				#container{
+					widows: 600px;
+					height:480px;
+				}
+			}
+			
+			/* Large Devices, Wide Screens */
+			@media only screen and (min-width : 1200px) {
+				#container{
+					widows: 600px;
+					height:480px;
+				}
+			}
+
+		</style>
+			
 	</head>
 	<body>
 		<h1></h1>
