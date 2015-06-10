@@ -1,0 +1,191 @@
+<html>
+<head>
+	<title>UGA MLC Classrooms</title>
+	<link rel="stylesheet" href="main.css">
+<style type="text/css">
+	#container{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	 /*==========  Mobile First Method  ==========*/
+	
+	/* Custom, iPhone Retina */ 
+	@media only screen and (min-width : 320px) {
+	    #container{
+			width:280px;
+			height:200px;
+		}      
+	}
+	
+	/* Extra Small Devices, Phones */ 
+	@media only screen and (min-width : 480px) {
+		#container{
+			width:400px;
+			height:300px;
+		}
+	}
+	
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 768px) {
+		#container{
+			width:600px;
+			height:480px;
+		}
+	}
+	
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+		#container{
+			widows: 600px;
+			height:480px;
+		}
+	}
+	
+	/* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1200px) {
+		#container{
+			widows: 600px;
+			height:480px;
+		}
+	}
+</style>
+</head>
+
+<body>
+   
+    <a href="/main_login.php"><span>Login</span></a><img src="http://nisd5400.ctl.uga.edu/logo.jpg"><center><br>| <a href="javascript:history.back(1);">Back to classroom index</a> | <a href="/index.html">Main Index</a> |</center><center><h2>Building 81 - Zell Miller Learning Center<br>Room 101</h2></center><br> 
+	<script type="text/javascript" src="pano2vr_player.js">
+		</script>
+		<div id="container">
+		This content requires HTML5/CSS3, WebGL, or Adobe Flash Player Version 9 or higher.
+		</div>
+		<script type="text/javascript">
+	
+		// check for CSS3 3D transformations and WebGL
+		if (ggHasHtml5Css3D() || ggHasWebGL()) {
+		// use HTML5 panorama
+	
+			// create the panorama player with the container
+			pano=new pano2vrPlayer("container");
+			pano.readConfigUrl("101Output_out.xml");
+			// hide the URL bar on the iPhone
+			setTimeout(function() { hideUrlBar(); }, 10);
+		} else 
+		if (swfobject.hasFlashPlayerVersion("10.0.0")) {
+			var flashvars = {};
+			var params = {};
+			// enable javascript interface
+			flashvars.externalinterface="1";
+			params.quality = "high";
+			params.bgcolor = "#ffffff";
+			params.allowscriptaccess = "sameDomain";
+			params.allowfullscreen = "true";
+			var attributes = {};
+			attributes.id = "pano";
+			attributes.name = "pano";
+			attributes.align = "middle";
+			flashvars.panoxml="101Output_out.xml";
+			params.base=".";
+			swfobject.embedSWF(
+				"pano2vr_player.swf", "container", 
+				"640", "480",
+				"9.0.0", "", 
+				flashvars, params, attributes);
+			
+		}
+		</script>
+		<noscript>
+			<p><b>Please enable Javascript!</b></p>
+		</noscript>
+	<b>General Information<br>
+	<table><tbody><tr>
+<th>Room Type</th>
+<th>Department</th>
+<th>College</th>
+<th>Primary Owner</th></tr><tr>
+<td>General Classroom</td>
+<td>Library</td>
+<td>Library</td>
+<td>CTL</td>
+</tr></tbody></table><p><b>Contact Information<br><table><tbody><tr>
+<th>Reservations</th>
+<th>CTL Contact Name</th>
+<th>CTL Contact Email</th>
+<th>CTL Contact Phone</th>
+<th>Department Contact Name</th>
+<th>Department Contact Email</th>
+<th>Department Contact Phone</th>
+<th>IT Contact Name</th>
+<th>IT Contact Email</th>
+<th>IT Contact Phone</th>
+</tr><tr>
+<td>Astra</td>
+<td>Patrick Lanham</td>
+<td>zappa103@uga.edu</td>
+<td>706-542-0507</td>
+<td>Caroline Barratt</td>
+<td>ccason@uga.edu</td>
+<td>706-542-6196</td>
+<td>Tommy Jones</td>
+<td>tomjones@uga.edu</td>
+<td>706-542-6292</td>
+</tr></tbody></table></b></p><p><b><b>Physical Details<br><table><tbody><tr>
+<th>Room Size</th>
+<th>Room SQ FT.</th>
+<th>Seating</th>
+<th>Floor</th>
+<th>Access</th>
+<th>Chalkboard</th>
+<th>Whiteboard</th>
+</tr><tr>
+<td>300</td>
+<td>4264</td>
+<td>Tablet Arm Seating Fixed</td>
+<td>Tiered</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr></tbody></table></b></b></p><p><b><b><b>Technical Details<br><table><tbody><tr>
+<th>Last Update</th>
+<th>Computer</th>
+<th>Cabinet Model Number</th>
+<th>Projector Model Number</th>
+<th>Screen Size</th>
+<th>Touchpanel Model Number</th>
+<th>Sympodium Model Number</th>
+<th>Document Camera Model Number</th>
+<th>DVD/BLURAY Model Number</th>
+<th>VHS/DVD Model Number</th>
+<th>VHS Model Number</th>
+</tr><tr>
+<td></td>
+<td>EXTRON RGB 203 RXi</td>
+<td></td>
+<td>Epson G5200W</td>
+<td>16 ft</td>
+<td>CRESTRON STX-1700C</td>
+<td>SMART ID422W</td>
+<td></td>
+<td>PANASONIC DMP-BD65</td>
+<td></td>
+<td>PANASONIC AG 2580</td>
+</tr></tbody></table><br><table><tbody><tr>
+<th>Overhead Model Number</th>
+<th>Slide Projector CTL Number</th>
+<th>Television Model Number</th>
+<th>Microphone Model Number</th>
+<th>Tuner Model Number</th>
+<th>Notes</th>
+</tr><tr>
+<td></td>
+<td></td>
+<td></td>
+<td>SHURE SM86 - SHURE ULX1-J1 - SHURE ULX-P4 (x2)</td>
+<td>CRESTRON ST-TUNE</td>
+<td>CRESTRON ST-BTPN - CRESTRON ST-DSN - CRESTRON STRFGWX - AMX AUTOPATCH (x3) - AMX AUTOPATCH - LISTENTECH ALS-TX - VIDEOTEK ADA-16 - CRESTRON ST-COM - CRESTRON ST-VS</td>
+</tr></tbody></table>
+</b></b></b></p></b></body>
+</html>
